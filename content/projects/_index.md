@@ -13,6 +13,8 @@ sections:
     content:
       title: Selected Projects
       text: Here I share some significant projects that I collaborated on.
+      # Show 0 = all pages, or set a specific number (e.g. 6)
+      count: 0
       filters:
         folders:
           - projects
