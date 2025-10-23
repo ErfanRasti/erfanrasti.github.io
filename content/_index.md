@@ -46,6 +46,7 @@ sections:
       columns: "2"
 
   - block: resume-skills
+    id: skills
     content:
       username: "admin"
       title: <a href="https://erfanrasti.github.io/portfolio">Skills & Hobbies</a>
@@ -58,6 +59,7 @@ sections:
       columns: "2"
 
   - block: markdown
+    id: description
     content:
       title: "Description"
       subtitle: ""

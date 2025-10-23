@@ -107,15 +107,12 @@ skills:
       - name: Chess
         description: "Playing chess or watching analysis of gramdmaster games on YouTube"
         # percent: 80
-        icon: custom/chess-solid-full
       - name: Playing Piano
         description: "Playing Frantz Liszt, L. V. Beethoven, or J. S. Bach"
         # percent: 80
-        # icon: devicon/chess
       - name: Tweaking Linux Configuration
-        description: ""
+        description: "See [**my dotfiles**](projects/dotfiles)"
         # percent: 90
-        icon: cpu-chip
 
 languages:
   - name: English
@@ -128,5 +125,6 @@ languages:
 <p style="text-align: justify;">
 Erfan Rasti is a forward-thinking communication engineer with a deep command of wireless communications, digital signal processing, and intelligent systems. Combining solid theoretical expertise with hands-on research at the AUT-Wireless Research Lab, he explores the intersection of deep learning, reinforcement learning, and wireless communications for next-generation networks. His recent contribution to the field is reflected in his publication in the <b>IEEE Transactions on Mobile Computing</b>, underscoring his commitment to advancing intelligent and efficient wireless communication systems.
 
-See <a href="https://erfanrasti.github.io/portfolio">portfolio</a> as an overview.
+See <a href="https://erfanrasti.github.io/portfolio">my portfolio</a> as an overview.
+
 </p>
