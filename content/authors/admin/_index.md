@@ -52,32 +52,35 @@ interests:
   - Deep Neural Networks
   - Reinforcement Learning
   - Mobile Computing
+  - Computer Vision
+  - Digital Signal Processing
 
 education:
   - area: BS Electrical Engineering (Communication Focus)
     institution: Amirkabir University of Technology
-    date_start: 2019
-    date_end: 2024
+    date_start: 2019-10-01
+    date_end: 2024-04-01
     summary: |
-      GPA: 3.7/4.0
-      Major: Electrical Engineering (Communication Engineering)
-      Minor: Computer Science.
+      <p>GPA: 3.7/4.0<br>
+      Major: Electrical Engineering (Communication Engineering)<br>
+      Minor: Computer Science.<br>
+      </p>
   - area: HS Diploma (Mathematics & Physics)
     institution: National Organization for Development of Exceptional Talents (Sampad)
-    date_start: 2013
-    date_end: 2019
+    date_start: 2013-10-01
+    date_end: 2019-06-01
     summary: |
-      GPA: 3.95/4.0
+      GPA: 4.0/4.0
 
 work:
   - position: AUT-Wireless Research Lab.
-    date_start: 2022
+    date_start: 2022-12-01
     date_end: ""
     summary: |2-
       2+ years in development and deployment of 4G, 5G, and Cell-Free Massive MIMO networks.
   - position: AUT Internship
-    date_start: 2022
-    date_end: 2023
+    date_start: 2022-06-01
+    date_end: 2023-01-01
     summary: |
       Medical Image Processing using Deep Learning
 # Skills
@@ -87,40 +90,43 @@ skills:
     items:
       - name: Programming/Scripting
         description: Python, MATLAB, Linux Bash Script (Ubuntu, Arch Linux, Debian), C, C++, LaTeX PowerShell, VHDL
-        percent: 95
+        # percent: 95
         icon: code-bracket
       - name: Frameworks
         description: PyTorch, Tensorflow, OpenAI Gym, Scikit-Learn
-        percent: 100
-        icon: framework
+        # percent: 100
+        icon: hero/briefcase
       - name: IDEs/Tools
         description: VS Code, MATLAB, Neovim, tmux, PyCharm, Advanced Design System, Proteus (PDS), CodeVisionAVR, Altium Designer, Xilinx ISE, Vivado
-        percent: 85
-        icon: cloud
+        # percent: 85
+        icon: hero/wrench-screwdriver
   - name: Hobbies
     color: "#eeac02"
     color_border: "#f0bf23"
     items:
       - name: Chess
-        description: ""
-        percent: 80
-        icon:
+        description: "Playing chess or watching analysis of gramdmaster games on YouTube"
+        # percent: 80
+        icon: custom/chess-solid-full
+      - name: Playing Piano
+        description: "Playing Frantz Liszt, L. V. Beethoven, or J. S. Bach"
+        # percent: 80
+        # icon: devicon/chess
       - name: Tweaking Linux Configuration
         description: ""
-        percent: 90
+        # percent: 90
         icon: cpu-chip
 
 languages:
   - name: English
-    percent: native
+    # percent: native
   - name: Persian
-    percent: native
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
+    # percent: native
 #   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
 ---
 
 <p style="text-align: justify;">
 Erfan Rasti is a forward-thinking communication engineer with a deep command of wireless communications, digital signal processing, and intelligent systems. Combining solid theoretical expertise with hands-on research at the AUT-Wireless Research Lab, he explores the intersection of deep learning, reinforcement learning, and wireless communications for next-generation networks. His recent contribution to the field is reflected in his publication in the <b>IEEE Transactions on Mobile Computing</b>, underscoring his commitment to advancing intelligent and efficient wireless communication systems.
+
+See <a href="https://erfanrasti.github.io/portfolio">portfolio</a> as an overview.
 </p>

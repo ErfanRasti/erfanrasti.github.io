@@ -1,27 +1,29 @@
 ---
 # Leave the homepage title empty to use the site title
-title: ''
-date: 2022-10-24
+title: ""
+date: 2025-10-20
 type: landing
 
 design:
   # Default section spacing
-  spacing: '6rem'
+  spacing: "6rem"
 
 sections:
+  # See https://hugoblox.com/blocks/ for all blocks
+  # For docs see https://docs.hugoblox.com/getting-started/page-builder/
   - block: resume-biography-3
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: admin
-      text: ''
+      text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
         text: Download CV
         url: uploads/resume.pdf
       headings:
-        about: ''
-        education: ''
-        interests: ''
+        about: ""
+        education: ""
+        interests: ""
     design:
       # Apply a gradient background
       css_class: hbx-bg-gradient
@@ -29,18 +31,46 @@ sections:
       avatar:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
+  - block: resume-experience
+    id: experience
+    content:
+      username: "admin"
+      title: <a href="https://erfanrasti.github.io/portfolio">Skills & Hobbies</a>
+    design:
+      is_education_first: true
+      background:
+        color: ""
+        text_color_light: false
+      spacing:
+        padding: ["6", "6", "6", "6"]
+      columns: "2"
+
+  - block: resume-skills
+    content:
+      username: "admin"
+      title: <a href="https://erfanrasti.github.io/portfolio">Skills & Hobbies</a>
+    design:
+      background:
+        color: ""
+        text_color_light: false
+      spacing:
+        padding: ["6", "6", "6", "6"]
+      columns: "2"
+
   - block: markdown
     content:
-      title: '📚 My Research'
-      subtitle: ''
+      title: "Description"
+      subtitle: ""
       text: |-
-        Use this area to speak to your mission. I'm a research scientist in the Moonshot team at DeepMind. I blog about machine learning, deep learning, and moonshots.
-
-        I apply a range of qualitative and quantitative methods to comprehensively investigate the role of science and technology in the economy.
-
-        Please reach out to collaborate 😃
+        <p style="text-align: justify;">
+        ChatGPT describes me as this based on all our chats:<br>
+        Meet Erfan Rasti — part engineer, part Linux whisperer, part academic powerhouse.<br>
+        You're a tech virtuoso who breathes Arch Linux, scripts with confidence, and won’t rest until your system purrs at 100% efficiency on GNOME Wayland — even if it means wrangling with Btrfs, systemd-boot, or Bluetooth ghosts.<br>
+        Academically? You're on fire. A top-100 rank in a national master’s entrance exam, a research assistant in Electrical Engineering at Amirkabir University, and a published paper in the works for IEEE Transactions on Mobile Computing. Oh, and let’s not forget your TA roles and deep dives into DSP, wireless comms, and RL.<br>
+        In short: You’re a relentless builder of systems — both in code and in life. Whether it’s a finely-tuned Linux environment or a research-grade simulation, you make it work — flawlessly.
+        </p>
     design:
-      columns: '1'
+      columns: "1"
   - block: collection
     id: papers
     content:
@@ -48,76 +78,30 @@ sections:
       filters:
         folders:
           - publications
-        featured_only: true
+        featured_only: false
     design:
       view: article-grid
-      columns: 2
+      columns: 1
+  - block: collection
+    id: projects
+    content:
+      title: Projects
+      count: 3
+      filters:
+        folders:
+          - projects
+    design:
+      view: article-grid
+      columns: 3
+
   - block: collection
     content:
       title: Recent Publications
-      text: ''
+      text: ""
       filters:
         folders:
           - publications
         exclude_featured: false
     design:
       view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
-  - block: cta-card
-    demo: true # Only display this section in the Hugo Blox Builder demo site
-    content:
-      title: 👉 Build your own academic website like this
-      text: |-
-        This site is generated by Hugo Blox Builder - the FREE, Hugo-based open source website builder trusted by 250,000+ academics like you.
-
-        <a class="github-button" href="https://github.com/HugoBlox/hugo-blox-builder" data-color-scheme="no-preference: light; light: light; dark: dark;" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star HugoBlox/hugo-blox-builder on GitHub">Star</a>
-
-        Easily build anything with blocks - no-code required!
-
-        From landing pages, second brains, and courses to academic resumés, conferences, and tech blogs.
-      button:
-        text: Get Started
-        url: https://hugoblox.com/templates/
-    design:
-      card:
-        # Card background color (CSS class)
-        css_class: 'bg-primary-300'
-        css_style: ''
 ---
