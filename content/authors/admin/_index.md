@@ -39,7 +39,7 @@ profiles:
   - icon: brands/github
     url: https://github.com/erfanrasti
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/erfan-rasti-6a80561a1/
+    url: https://www.linkedin.com/in/erfan-rasti/
   - icon: academicons/google-scholar
     url: https://scholar.google.com/citations?user=vzeTLoIAAAAJ&hl=en
   - icon: academicons/orcid
